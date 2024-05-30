@@ -1,0 +1,234 @@
+
+body, html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px 0px;
+    background-color: hsl(345, 100%, 98%);
+
+}
+
+button{
+    cursor: pointer;
+}
+
+#container{
+    text-align: center;
+    box-shadow: 0 0 10px hsla(0, 1%, 28%, 0.37);
+    padding: 20px;
+    max-width: 1000px;
+    width: 90%;    
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7; 
+}
+
+
+.crimson-text-bold {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.crimson-text-semibold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.iconwork{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transform: translateY(20%);
+}
+
+#title{
+    color: hsl(271, 32%, 56%);
+    font-size: 2rem;
+}
+#add-text{
+    border-radius: 20px;
+    border-color: hsl(271, 32%, 56%);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+    color:hsl(359, 64%, 71%);
+    
+}
+
+.btn-add-image{
+    background-image: url(assets/plus-icon.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px;
+    border-radius: 50px;
+    border-color: #E48586;
+    transform: translateY(-20%);
+}
+
+.btn-add-image:hover{
+    border-color: #a03738;
+}
+
+
+.sidebar{
+    display: flex;
+    width: auto;
+    justify-content:center;
+    align-items: top;
+    height: auto;
+}
+
+.sidebar ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar ul li{
+    padding: 10px;
+    text-align:right;
+}
+
+.sidebar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+#showalllink{
+    border-radius: 50px 0 0 50px;
+    background-color: hsl(271, 32%, 56%);
+    text-align: center;
+    color: white;
+}
+
+#showalllink:hover{
+    background-color: hsl(271, 32%, 46%);
+}
+
+#completelink{
+    border-radius: 50px 0 0 50px;
+    background-color: hsl(359, 64%, 71%);
+    text-align: center;
+    color: white;
+}
+
+#completelink:hover{
+    background-color: hsl(359, 64%, 61%);
+}
+
+#pendinglink{
+    border-radius: 50px 0 0 50px;
+    background-color: hsl(271, 32%, 56%);
+    text-align: center;
+    color: white;
+}
+
+#pendinglink:hover{
+    background-color: hsl(271, 32%, 46%);
+}
+
+.textNodeClass{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    width: 40%;
+    text-align: left;
+    resize: none;
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+
+.editIconClass{
+    width: 5%;
+    height: 5%;
+    cursor: pointer;
+    box-shadow: 0 0 10px hsla(0, 0%, 25%, 0.651);
+    border-radius: 20%;
+    margin-left: 30%;
+}
+
+.editIconClass:hover{
+    box-shadow: 0 0 10px hsla(0, 0%, 25%, 0.951);
+}
+
+.deleteIconClass{
+    width: 4.6%;
+    height: 4.6%;
+    transform: translateY(10%);
+    cursor: pointer;
+    margin-right: 0%;
+    transform: translateY(-4%);
+}
+
+.deleteIconClass:hover{
+    box-shadow: 0 0 10px hsla(0, 0%, 25%, 0.951);
+}
+
+.incomplete-list ul li, .complete-list ul li{
+    list-style-type: none;    
+}
+
+
+.listItemClass{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.completed{
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        max-width: 90%; /* Set maximum width */
+    }
+
+    .crimson-text-bold {
+        font-size: 18px; /* Adjust font size */
+    }
+
+    .crimson-text-semibold-italic {
+        font-size: 16px; /* Adjust font size */
+    }
+
+    .crimson-text-regular {
+        font-size: 14px; /* Adjust font size */
+    }
+
+    .iconwork {
+        width: 40px; /* Adjust icon size */
+        height: 40px; /* Adjust icon size */
+    }
+
+    #add-text {
+        padding: 8px; /* Adjust padding */
+    }
+
+    .btn-add-image {
+        padding: 12px; /* Adjust padding */
+    }
+
+}
