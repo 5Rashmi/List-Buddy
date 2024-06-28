@@ -71,7 +71,7 @@ button{
 }
 
 .btn-add-image{
-    background-image: url(assets/plus-icon.png);
+    background-image: url(plus-icon.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 15px;

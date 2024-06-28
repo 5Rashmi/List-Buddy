@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         const editIcon = document.createElement('img');
-        editIcon.src = 'assets/edit-text.png';
+        editIcon.src = 'edit-text.png';
         editIcon.alt = "edit";
         editIcon.classList.add("editIconClass");
 
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         const deleteIcon = document.createElement('img');
-        deleteIcon.src = 'assets/close.png';
+        deleteIcon.src = 'close.png';
         deleteIcon.alt = "delete";
         deleteIcon.classList.add('deleteIconClass');
 
